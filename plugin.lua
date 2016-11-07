@@ -5,12 +5,12 @@ function getdate(o)
 end
 
 function run(msg)
-	about_key = {{{text="Website",url="http://Umbrella.shayan-soft.ir"},{text="Master Channel",url="https://telegram.me/UmbrellaTeam"}},{{text="Master Robot",url="https://telegram.me/UmbreIIaBot"},{text="Instagram",url="https://instagram.com/UmbrellaTeam"}},{{text="Messanger",url="https://telegram.me/shayansoftBot"},{text="Admin",url="https://telegram.me/shayan_soft"}}}
-	about_txt = "*Sport3 Robot* v"..bot_version.."\n\n`رباتی برای علاقمندان به فوتبال، محصولی از آمبرلا پروجکت...`\n\nبرنامه نویس: [مهندس شایان احمدی](https://instagram.com/shayan_soft)\nمشاور: [هیرش فرجی](https://instagram.com/heresh9)\nطراح لوگو: لیلا احمدی\nبا سپاس فراوان از آقای شکیب هدایتی و وبسایت ورزش3"	
+	about_key = {text="سازنده",url="https://telegram.me/mrflat"}
+	about_txt = "*Football Robot* v"..bot_version.."\n\n`روباتی فوتبالی `\n\nبرنامه نویس: [امیررضا ابراهیمی](https://telegram.me/MrFlat)\n"	
 	help_user = about_txt
 	help_admin = "_Admin Commands:_\n\n".."   *Block a user:*\n".."     `/block {telegram id}`\n\n".."   *Unblock a user:*\n".."     `/unblock {telegram id}`\n\n".."   *Block list:*\n".."     /blocklist\n\n".."   *Send message to all users:*\n".."     `/sendtoall {message}`\n\n".."   *All users list:*\n".."     /users\n\n"
-	start_txt = "به ربات اسپرت3 خوش آمدید\n\n`این ربات با مرجع ورزش3 اطلاعات را ارائه مینماید و قادر است اطلاعات کامل لیگای مهم جهان همچنین اخبار مرتبط با فوتبال را در اختیارتان قرار دهد.`"
-	keyboard = {{"نتایج آنلاین بازیها"},{"اخبار فوتبال"},{"اطلاعات لیگها"},{"سایر پلتفرما","درباره ما"}}
+	start_txt = "به ربات فوتبالی  خوش آمدید\n\n`این ربات با مرجع ورزش3 اطلاعات را ارائه مینماید و قادر است اطلاعات کامل لیگای مهم جهان همچنین اخبار مرتبط با فوتبال را در اختیارتان قرار دهد.`"
+	keyboard = {{"نتایج آنلاین بازیها"},{"اخبار فوتبال"},{"اطلاعات لیگها"},{"درباره ما"}}
 	------------------------------------------------------------------------------------
 	blocks = load_data("../blocks.json")
 	users = load_data("users.json")
@@ -207,7 +207,7 @@ function run(msg)
 					.."`   زده:` *"..res[i].Made.."*"
 					.."`   خورده:` *"..res[i].Let.."*"
 					.."`   تفاضل:` *"..res[i].Diff.."*\n"
-					.."[‌ ]("..res[i].FlagHQ..")" -- [@Sport3_Bot](telegram.me/Sport3_Bot)
+					.."[‌ ]("..res[i].FlagHQ..")" -- [@footballirobot](telegram.me/footballirobot)
 				return send_msg(msg.from.id, text, true)
 			end
 		end
