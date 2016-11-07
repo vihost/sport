@@ -1,4 +1,4 @@
-bot_token = "279273406:AAHnckCT3rMcsU3SsLctK9yypGAGE83J2TU"
+bot_token = "297992892:AAHsZ7xW96Ri5GbrWz-rwxkAig5woUZgrN8"
 send_api = "https://api.telegram.org/bot"..bot_token
-bot_version = "2.0"
-sudo_id = 180910633
+bot_version = "1.0"
+sudo_id = 275387751
