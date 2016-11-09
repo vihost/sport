@@ -5,7 +5,7 @@ function getdate(o)
 end
 
 function run(msg)
-	about_key = {{text="سازنده",url="https://telegram.me/mrflat"}}
+	about_key = {{{text="Website",url="http://Umbrella.shayan-soft.ir"},{text="Master Channel",url="https://telegram.me/UmbrellaTeam"}},{{text="Master Robot",url="https://telegram.me/UmbreIIaBot"},{text="Instagram",url="https://instagram.com/UmbrellaTeam"}},{{text="Messanger",url="https://telegram.me/shayansoftBot"},{text="Admin",url="https://telegram.me/shayan_soft"}}} 	
 	about_txt = "*Football Robot* v"..bot_version.."\n\n`روباتی فوتبالی `\n\nبرنامه نویس: [امیررضا ابراهیمی](https://telegram.me/MrFlat)\n"	
 	help_user = about_txt
 	help_admin = "_Admin Commands:_\n\n".."   *Block a user:*\n".."     `/block {telegram id}`\n\n".."   *Unblock a user:*\n".."     `/unblock {telegram id}`\n\n".."   *Block list:*\n".."     /blocklist\n\n".."   *Send message to all users:*\n".."     `/sendtoall {message}`\n\n".."   *All users list:*\n".."     /users\n\n"
